@@ -9,43 +9,46 @@
     <script src="https://kit.fontawesome.com/665d6425d5.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <main>
-        <section class="bg-[#55a0dd] w-100 h-[100vh] flex justify-center items-center">
+    <main  class="bg-[#55a0dd] w-100 h-[100vh] flex justify-center items-center flex-col">
+        <section>
             <!-- symbol section -->
             <div class="p-4 flex justify-around	bg-white">
                 <div >
-                    <input type="number" name="" id="" value="16" min="1" max="100">
+                    <input type="number" id="text-size" value="16" min="1" max="100">
                 </div>
                 <div >
-                    <button class="px-4 hover:bg-[#40576d1a]">
+                    <button class="px-4 hover:bg-[#40576d1a]" id="bold">
                         <i class="fa-solid fa-bold"></i>
                     </button >
-                    <button class="px-4 hover:bg-[#40576d1a]">
+                    <button class="px-4 hover:bg-[#40576d1a]" id="italic">
                         <i class="fa-solid fa-italic"></i>
                     </button>
-                    <button class="px-4 hover:bg-[#40576d1a]">
+                    <button class="px-4 hover:bg-[#40576d1a]" id="underline">
                         <i class="fa-solid fa-underline"></i>
                     </button>
                 </div>
                 <div>
-                    <button class="px-4 hover:bg-[#40576d1a]">
+                    <button class="px-4 hover:bg-[#40576d1a]" id="align-left">
                         <i class="fa-solid fa-align-left"></i>
                     </button>
-                    <button class="px-4 hover:bg-[#40576d1a]">
+                    <button class="px-4 hover:bg-[#40576d1a]" id="align-center">
                         <i class="fa-solid fa-align-center"></i>
                     </button>
-                    <button class="px-4 hover:bg-[#40576d1a]">
+                    <button class="px-4 hover:bg-[#40576d1a]" id="align-right">
                         <i class="fa-solid fa-align-right"></i>
                     </button>
                 </div>
                 <div >
                     <button class="px-4 hover:bg-[#40576d1a]">aA</button>
-                    <button class="px-4 hover:bg-[#40576d1a]">
+                    <button class="px-4 hover:bg-[#40576d1a]" id="slash">
                         <i class="fa-solid fa-text-slash"></i>
                     </button >
-                    <input type="color" name="" id="" >
+                    <input type="color" id="" >
                 </div>
             </div>
+        </section>
+        <section class="bg-white block mt-4">
+            <textarea name="" id="textarea" cols="72" rows="10" placeholder="Your text here " class="p-2"></textarea>
         </section>
     </main>
 </body>
