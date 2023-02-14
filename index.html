@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/665d6425d5.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <main  class="bg-[#55a0dd] w-100 h-[100vh] flex justify-center items-center flex-col">
+    <main  class="bg-[#55a0dd] w-full h-[100vh] flex justify-center items-center flex-col">
         <section>
             <!-- symbol section -->
             <div class="p-4 flex justify-around	bg-white">
@@ -39,17 +39,20 @@
                     </button>
                 </div>
                 <div >
-                    <button class="px-4 hover:bg-[#40576d1a]">aA</button>
+                    <button class="px-4 hover:bg-[#40576d1a]" id="upperCase">aA</button>
                     <button class="px-4 hover:bg-[#40576d1a]" id="slash">
                         <i class="fa-solid fa-text-slash"></i>
                     </button >
-                    <input type="color" id="" >
+                    <input type="color" id="color" >
                 </div>
             </div>
         </section>
-        <section class="bg-white block mt-4">
-            <textarea name="" id="textarea" cols="72" rows="10" placeholder="Your text here " class="p-2"></textarea>
+        <section>
+            <div class="bg-white  mt-4 w-full">
+                <textarea name="" id="textarea"  placeholder="Your text here " class="p-2 w-[550px] h-[400px]" ></textarea>
+            </div>
         </section>
     </main>
+    <script src="app.js"></script>
 </body>
 </html>
